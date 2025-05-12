@@ -60,7 +60,7 @@ group :development do
   # gem "spring"
 
 end
-
+gem 'pg', '>= 1.1'
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
@@ -70,6 +70,3 @@ gem 'devise'
 
 gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
-group :production do
-  gem 'pg'
-end
