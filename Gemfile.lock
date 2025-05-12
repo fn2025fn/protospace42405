@@ -151,7 +151,6 @@ GEM
     minitest (5.25.5)
     msgpack (1.8.0)
     mutex_m (0.3.0)
-    mysql2 (0.5.6)
     net-imap (0.5.8)
       date
       net-protocol
@@ -283,7 +282,6 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   mini_magick
-  mysql2 (~> 0.5)
   pg (>= 1.1)
   puma (>= 5.0)
   rails (~> 7.1.0)
